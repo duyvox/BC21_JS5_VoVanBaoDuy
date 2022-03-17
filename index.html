@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Js5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="ex1">
+      <div class="container">
+        <h2>Tìm số nguyên nhỏ nhất sao cho 1 + 2 + ... n > 10000</h2>
+        <button class="btn btn-success" onclick="getSmallestNumber()">Xem kết quả</button>
+        <p id="ex1-result" class="text-info  ">
+        </p>
+      </div>
+      <hr>
+      <div class="ex2">
+        <div class="container">
+          <h2>Nhập vào x, n. Tính S = x^1 + x^2 + ... + x^n</h2>
+          <div class="form-group">
+            <label for="x">X</label>
+            <input type="text" name="x" id="txt-x" class="form-control" placeholder="" aria-describedby="helpId">
+            <label for="n">N</label>
+            <input type="text" name="n" id="txt-n" class="form-control" placeholder="" aria-describedby="helpId">
+          </div>
+          <button class="btn btn-success" onclick="getSum()">Xem kết quả</button>
+          <p id="ex2-result" class="text-info">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="ex3">
+      <div class="container">
+        <h2>Tính giai thừa</h2>
+        <div class="form-group">
+          <label for="giaithua"></label>
+          <input type="text" name="giaithua" id="txt-giaithua" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="getFactorial()">Xem kết quả</button>
+          <p id="ex3-result" class="text-info">
+      </div>
+    </div>
+    <hr>
+    <div class="ex4">
+      <div class="container">
+        <h2>Hiển thị Div</h2>
+        <button class="btn btn-success" onclick="showDiv()">Xem kết quả</button>
+        <div id="ex4-list">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="ex5">
+      <div class="container">
+        <h2>In các số từ 1 đến n</h2>
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" name="" id="txt-num-ex5" class="form-control" placeholder="" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-success" onclick="printNum()">Xem kết quả</button>
+        <p id="ex5-result" class="text-info">
+        
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./ex1.js"></script>
+    <script src="./ex2.js"></script>
+    <script src="./ex3.js"></script>
+    <script src="./ex4.js"></script>
+    <script src="./ex5.js"></script>
+</body>
+</html>
